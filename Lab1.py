@@ -158,7 +158,7 @@ if __name__ == '__main__':
                         help='5- Fibonacci')
     parser.add_argument("task", help="Number of task, u want to run", type=int)
     parser.add_argument("input",
-                        help="Providing name of input file, text_input.txt for 1/2 task, numbers_input.txt for 3 task",
+                        help="Providing name of input file, text.txt for 1/2 task, numbers.txt for 3 task",
                         type=str)
 
     args = parser.parse_args()
