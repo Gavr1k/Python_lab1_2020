@@ -34,10 +34,7 @@ def task2(filename):
     task = file.split()
     complete = Counter(task)
     print(dict(complete))
-    complete1 = dict(complete)
-    items = dict(complete.most_common(10))
-
-    for key in items:
+    for key, _ in complete.most_common(10):
         print(key, end=" ")
 
 
